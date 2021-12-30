@@ -1,9 +1,16 @@
+import React, { useState } from 'react'
+import Navbar from "./components/Navbar/Navbar";
+import SearchBar from "./components/SearchBar/SearchBar";
+import SearchResults from "./components/SearchResults/SearchResults";
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Superheroes app</h1>
+      <Navbar />
+      <SearchBar />
+      <SearchResults />
+
     </div>
   );
 }
