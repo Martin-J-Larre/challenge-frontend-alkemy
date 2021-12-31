@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import './navbar.css';
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <div>
-            Navbar
+        <div className='navbar'>
+            <span id='logo'>SuperHeroes</span>
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;
 
