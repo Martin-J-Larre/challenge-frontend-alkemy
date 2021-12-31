@@ -1,9 +1,10 @@
 import React from 'react'
+import './searchBar.css'
 
 function SearchBar() {
     return (
         <div>
-            Search Bar
+            <input type='search' placeholder='Elige tu superhéroe aquí'/>
         </div>
     )
 }
