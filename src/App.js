@@ -12,9 +12,6 @@ function App() {
         <SearchBar />
         <SearchResults />
       </div>
-
-
-
     </div>
   );
 }

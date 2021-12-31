@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './searchResults.css'
+import SearchResultsItems from './SearchResultsItem';
 
 function SearchResults() {
     return (
         <div>
-            Search Results
+            <SearchResultsItems />
+            
         </div>
     )
 }
